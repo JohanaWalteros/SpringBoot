@@ -19,9 +19,8 @@ public class BadRequestController {
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public BaseErrorResp handlBadRequest(MethodArgumentNotValidException exception){
         List <Map<String,String>> errors = new ArrayList<>();
-        
-        return
+        //Cambios
+        return;
     }
 }
 
-//Cambios 
