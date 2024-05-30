@@ -16,11 +16,11 @@ import com.riwi.beautySalon.api.dto.errors.BaseErrorResp;
 @ResponseStatus(code = HttpStatus.BAD_REQUEST)
 public class BadRequestController {
 
-    @ExceptionHandler(MethodArgumentNotValidException.class)
-    public BaseErrorResp handlBadRequest(MethodArgumentNotValidException exception){
-        List <Map<String,String>> errors = new ArrayList<>();
-        //Prueba 
-        return;
-    }
+    // @ExceptionHandler(MethodArgumentNotValidException.class)
+    // public BaseErrorResp handlBadRequest(MethodArgumentNotValidException exception){
+    //     List <Map<String,String>> errors = new ArrayList<>();
+        
+    //     return;
+    // }
 }
 
